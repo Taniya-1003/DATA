@@ -8,6 +8,7 @@ int main()
 	char a;
 	cout<<"ENTER A CHARACTER:\n";
 	cin>>a;
+	a = tolower(a);
     switch(a)
     {
     	case 'a':
