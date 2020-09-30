@@ -1,0 +1,22 @@
+#include<iostream>
+#include<ctype.h>
+#include<cstdlib>
+using namespace std;
+int main()
+
+{
+	char a;
+	cout<<"ENTER A CHARACTER:\n";
+	cin>>a;
+    switch(a)
+    {
+    	case 'a':
+    	case 'e':
+    	case 'i':
+    	case 'o':
+    	case 'u':cout<<"VOWEL";
+    	break;
+    	default:cout<<"NOT A VOWEL";
+	}
+	return(0);
+}
